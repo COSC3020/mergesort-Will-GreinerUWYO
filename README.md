@@ -23,4 +23,4 @@ I certify that I have listed all sources used to complete this exercise, includi
 
 ## Sources
 
-I used [w3schools](https://www.w3schools.com/dsa/dsa_algo_mergesort.php) to help me with the merge function. I took the general loop structure of two nested for loops from Lily Brongo, who also helped me with some of the syntax and flow of the program. Lily also told me to go to the slides for help with the code and the Runtime Analysis
+I used [w3schools](https://www.w3schools.com/dsa/dsa_algo_mergesort.php) to help me with the merge function. I took the general loop structure of two nested for loops from Lily Brongo, who also helped me with some of the syntax and flow of the program. Lily also told me to go to the slides for help with the code and the Runtime Analysis. I used [hyperskill](https://hyperskill.org/blog/post/javascript-array-slicing-techniques#:~:text=In%20JavaScript%2C%20you%20can%20do,and%20the%20end%20is%20exclusive.) to help with splitting the arrays
