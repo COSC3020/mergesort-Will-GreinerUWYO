@@ -21,7 +21,7 @@ function mergesort(array) {
         return array;
     }
     for (let i = 1; i <= arrLength; i = (2 * i)) {
-        for (let j = 0; j < arrLength - 1; j += (2 * i)) {
+        for (let j = 0; j < arrLength; j += (2 * i)) {
             // Math.min ensures the midpoint and endpoint never leave the bounds of the function
             let currentMid = Math.min(j + i, arrLength);
             let currentEnd = Math.min(j + (2 * i), arrLength);
