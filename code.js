@@ -1,6 +1,6 @@
 function merge(left,right) {
     let mergedArray = [];
-    let i,j = 0;
+    let i = 0, j = 0;
     while (i < left.length && j < right.length) {
         if (left[i] < right[j]) {
             mergedArray.push(left[i]);
@@ -20,8 +20,8 @@ function mergesort(array) {
     if (arrLength <= 1) {
         return array;
     }
-    for (let i = 1; i <= array_length; i = (2 * i)) {
-        for (let j = 0; j < array_length - 1; j += (2 * i)) {
+    for (let i = 1; i <= arrLength; i = (2 * i)) {
+        for (let j = 0; j < arrLength - 1; j += (2 * i)) {
             // Math.min ensures the midpoint and endpoint never leave the bounds of the function
             let currentMid = Math.min(j + i, arrLength);
             let currentEnd = Math.min(j + (2 * i), arrLength);
@@ -33,7 +33,7 @@ function mergesort(array) {
 
             let x = 0;
             while (x < merged.length) {
-                array[start + x] = merged[x];
+                array[j + x] = merged[x];
                 x++;
             }
         }
