@@ -15,7 +15,7 @@ Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
 
-
+From the slides, we can see that mergesort has a normal runtime of $\Theta(nlogn)$, but that version of mergesort only has one for loop, mine has two which go through the whole set of data, this means that we go through n again, making my runtime $\Theta(n^2logn)$
 
 ## Plagarism Statement
 
